@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-acyx
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/pmacik-testing/tkrw-pr712-0075-0030-tenant/tkrw-pr712-0075-0030-app/devfile-sample-acyx@sha256:b179cc81f0624e3484852fe0b421f79a5e182605a6a00f9b97137630cb370b0a
         name: my-nodejs
         ports:
         - containerPort: 3001
